@@ -233,6 +233,12 @@ Scheme
 		"UpgradeSelectedBg"		"249 138 83 255"
 		"UpgradeDisabledFg"		"64 59 52 255"
 		"UpgradeDisabledBg"		"79 77 68 255"
+		
+		"BWWhite"				"227 227 227 255"
+		"BWNameBG"      	    "0 0 0 175"     
+		"BWBlank"				"0 0 0 0"	
+        "BWHealth"               "227 227 227 255"      //Normal health color		
+		"BWHudShadow"     "0 0 0 255"          //Shadow on numbers
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -6038,6 +6044,65 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		
+		solFontRegular14
+		{
+			"1"
+			{
+				"name"		"Solomon-Normal"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		
+		"Medium13"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"13"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		solFontRegular11
+		{
+			"1"
+			{
+				"name"		"Solomon-Normal"
+				"tall"		"11"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"NoveMedium10"            
+		{
+			"1"
+			{
+				"name"			"NovecentoMedium"
+				"tall"		"10"
+				"additive"	"0"
+				"antialias" 	"1"
+                "dropshadow"	"0"
+			}
+		}
+		
+		solFontBold21
+		{
+			"1"
+			{
+				"name"		"Solomon Heavy"
+				"tall"		"21"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		
 
 		
 

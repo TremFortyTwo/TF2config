@@ -1,0 +1,7 @@
+2639 frames 30.954 seconds 85.25 fps (11.73 ms/f) 7.387 fps variability <-- maxframes
+2639 frames 33.945 seconds 77.74 fps (12.86 ms/f) 5.714 fps variability <-- rhapsody dx9
+2639 frames 35.042 seconds 75.31 fps (13.28 ms/f) 4.544 fps variability <-- rhapsody dx9 slightlyhigher
+2639 frames 42.078 seconds 62.72 fps (15.94 ms/f) 4.082 fps variability <-- rhapsody dx8 highforsomereason
+2639 frames 31.143 seconds 84.74 fps (11.80 ms/f) 7.249 fps variability <-- rhapsody dx8 
+2639 frames 33.720 seconds 78.26 fps (12.78 ms/f) 6.121 fps variability <-- rhapsody dx8 slightlyhigher
+

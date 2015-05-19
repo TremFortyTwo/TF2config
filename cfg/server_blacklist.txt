@@ -1,0 +1,555 @@
+"serverblacklist"
+{
+	"server"
+	{
+		"name"		" www.Saigns.de // ACHIEVEMENT APG"
+		"date"		"1410084859"
+		"addr"		"193.111.142.37:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // BADWATER #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27025"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // SAXTON HALE"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE WOW"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE X3"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27023"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE FINAL"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27025"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // FRONTIER +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DOOMSDAY #3 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.32:27036"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE MINECRAFT"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27025"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // EGYPT +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HARVEST #3 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // FOUNDRY +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HIGHTOWER #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27024"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 5GORGE #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE MINECRAFT WORLD"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // CP WELL +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MINECRAFT NEON"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // GOLDRUSH"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27017"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // GRAVELPIT ONLY"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27030"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // IDLEFIGHT"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27024"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DOOMSDAY #2"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DM DUEL V2"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // UPWARD +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #2"
+		"date"		"1410084860"
+		"addr"		"193.111.142.32:27033"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // NIGHTFALL +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27024"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DUSTBOWL #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27024"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // LAKESIDE // HALLOWEEN"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TOY FORT ELITE"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HARVEST #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // STANDIN +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // BADWATER #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MANOR # 01"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE MINECRAFT B61"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE X 7"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TURBINE #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // GORGE"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // BELLAS ROOMZ"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27020"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // NUCLEUS #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27022"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // BARNBLITZ +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27020"
+	}
+	"server"
+	{
+		"name"		" New GameMode: VAMPIRE SLAYER #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27029"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE MINECRAFT"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // GRAVELPIT +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TURBINE #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // VIADUCT +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // CTF SAWMILL +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27023"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 5GORGE #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // CTF WELL +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27017"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // NUCLEUS #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27023"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE MINECRAFT REALMS"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HYRULE OOT3D"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #6"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27030"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // KOTH SAWMILL +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // FREIGHT +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27017"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // LAKESIDE +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TURBINE #3 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DOUBLECROSS #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27020"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MARIO KART 3"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27026"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // YUKON +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27024"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // PIPELINE #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HELLTOWER"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27025"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HARVEST #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MARIO BROS"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27023"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // EYEADUCT // HALLOWEEN"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27017"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // THUNDERMOUNTAIN"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE PLAZA"
+		"date"		"1410084860"
+		"addr"		"193.111.142.32:27034"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HIGHTOWER #3 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DUSTBOWL #3 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // KOTH BADLANDS +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27023"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2 TOWERS"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HARVEST // HALLOWEEN"
+		"date"		"1410084860"
+		"addr"		"193.111.142.36:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #5 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.41:27027"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MOUNTAINLAB ONLY"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27031"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // JUNCTION +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // UPWARD"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27029"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // PIPELINE #3 +More Action"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27020"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DOUBLECROSS #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // FASTLANE +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27020"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DOOMSDAY #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27019"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DM DUEL PRO"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // HIGHTOWER #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // TRADE RAWR"
+		"date"		"1410084860"
+		"addr"		"193.111.142.32:27035"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // PIPELINE #1"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT EGYPT"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #4 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27018"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // DUSTBOWL #2 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27017"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // COLDFRONT +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27025"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // ORANGE Z3"
+		"date"		"1410084860"
+		"addr"		"193.111.142.37:27021"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // CTF SAWMILL"
+		"date"		"1410084860"
+		"addr"		"193.111.142.40:27028"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // CP BADLANDS +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.39:27015"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // MINECRAFT REALMS FINAL"
+		"date"		"1410084860"
+		"addr"		"193.111.142.38:27016"
+	}
+	"server"
+	{
+		"name"		" www.Saigns.de // 2FORT #3 +FastRespawn"
+		"date"		"1410084860"
+		"addr"		"193.111.142.33:27017"
+	}
+}

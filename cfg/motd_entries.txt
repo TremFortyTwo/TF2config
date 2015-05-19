@@ -1,0 +1,18 @@
+"motd_entries"
+{
+	"last_request_time"		"2014-12-23 11:25:41"
+	"last_request_language"		"english"
+	"64"
+	{
+		"post_time"		"2014-12-23 03:00:00"
+		"title_english"		"Mannpower Beta"
+		"text_english"		"Introducing Mannpower Mode, a new beta game mode for TF2!
+
+It contains PowerUps, Grappling Hooks and a slight twist to Capture the flag.  Check out the website for more information."
+		"url"		"http://www.teamfortress.com/"
+		"image"		"illustrations/gamemode_powerup_beta"
+		"header_type"		"1"
+		"header_english"		"New Gamemode Beta"
+		"header_icon"		"class_icons/filter_all_motd"
+	}
+}

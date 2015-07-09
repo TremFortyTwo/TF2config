@@ -18,13 +18,13 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"	[$WIN32]	
+		"xpos"			"0"
+		"ypos"			"0"
+		"tall"			"0"	
 		"wide"			"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 	}
@@ -32,13 +32,12 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"tall"			"0"	[$WIN32]	
-		"tall"			"90"	[$X360]		
+		"xpos"			"0"
+		"ypos"			"r20"	
+		"tall"			"0"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"0"
 		"tabPosition"		"0"
 	}
@@ -46,32 +45,49 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
-		"tall"			"0"	[$WIN32]		// this needs to match the size of BottomBar		
+		"xpos"			"0"
+		"ypos"			"r0"	
+		"tall"			"0"			// this needs to match the size of BottomBar
 		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+	}
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"c-60"
+		"ypos"			"40"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"		"0"
+		"tabPosition"	"0"	
+		"fillcolor"		"234 234 234 255"
+		"PaintBackgroundType"	"0"
 	}
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
-		"tall"			"22"
+		"xpos"			"c-60"	
+		"ypos"			"40"	
+		"wide"			"120"	
+		"tall"			"12"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NotoBold24"
-		"fgcolor_override"		"NotoWhite"
+		"font"			"Museo10"
+		"fgcolor_override" "234 234 234 255"
 	}
 	"BuyBackLabel"
 	{
@@ -97,14 +113,15 @@
 		"fieldName"		"MapLabel"
 		"font"			"HudFontSmall"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"16"	[$WIN32]
-		"wide"			"240"	[$WIN32]
+		"xpos"			"r260"	
+		"ypos"			"16"	
+		"wide"			"0"	
 		"tall"			"20"
+		"tall_hidef"		"30"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
 	}
@@ -113,31 +130,41 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"c-85"
-		"ypos"			"68"	
-		"wide"			"170"
-		"tall"			"15"
+		"xpos_hidef"	"c-65"
+		"xpos_lodef"	"40"
+		"ypos"			"68"
+		"ypos_hidef"	"90"
+		"ypos_lodef"	"30"	
+		"wide"			"0"
+		"wide_hidef"	"130"
+		"wide_lodef"	"220"
+		"tall"			"0"
+		"tall_lodef"	"25"
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"1"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
+		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
+		"font_hidef"	"HudFontSmallest"
+		"font_lodef"	"HudFontSmall"
 		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"10"	[$WIN32]
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
+		"xpos"			"5"		
+		"ypos"			"10"	
+		"wide"			"0"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -147,14 +174,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"10"	[$WIN32]	
-		"wide"			"125"	[$WIN32]	
-		"tall"			"20"
+		"xpos"			"80"	
+		"ypos"			"10"	
+		"wide"			"0"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_SwitchCamMode"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -163,14 +190,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"20"	[$WIN32]	
-		"wide"			"60"	[$WIN32]
-		"tall"			"20"
+		"xpos"			"5"	
+		"ypos"			"20"	
+		"wide"			"0"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -179,14 +206,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"20"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
+		"xpos"			"80"	
+		"ypos"			"20"	
+		"wide"			"125"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetFwd"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -195,14 +222,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"39"	[$WIN32]	
-		"wide"			"60"	[$WIN32]	
-		"tall"			"20"
+		"xpos"			"5"	
+		"ypos"			"30"	
+		"wide"			"0"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"1"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_ClassOrTeamKey"
 		"textAlignment"		"east"
 		"font"			"SpectatorKeyHints"
@@ -211,14 +238,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
-		"xpos"			"9999"	[$WIN32]
-		"ypos"			"30"	[$WIN32]	
-		"wide"			"125"	[$WIN32]
-		"tall"			"20"
+		"xpos"			"80"	
+		"ypos"			"30"	
+		"wide"			"0"	
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"	[$WIN32]
-		"enabled"		"1"
+		"visible"		"0"	
+		"enabled"		"0"
 		"labelText"		"#TF_Spectator_CycleTargetRev"
 		"textAlignment"		"west"
 		"font"			"SpectatorKeyHints"
@@ -227,48 +254,55 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TipLabel"
-		"xpos"			"15"
-		"ypos"			"r67"
-		"wide"			"145"
-		"tall"			"64"
+		"xpos"			"20"
+		"xpos_hidef"	"60"
+		"xpos_lodef"	"45"
+		"ypos"			"r60"
+		"ypos_lodef"		"28"
+		"ypos_hidef"		"35"
+		"wide"			"0"
+		"wide_hidef"	"230"
+		"wide_lodef"	"240"
+		"tall"			"0"
+		"tall_hidef"	"70"
+		"tall_lodef"	"70"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%tip%"
-		"textAlignment"		"center"	[$WIN32]
+		"textAlignment"		"center"	
 		"font"			"SpectatorKeyHints"
+		"font_hidef"	"HudFontSmall"
+		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
 	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r220"
-		"ypos"			"c65"
+		"xpos"			"r270"
+		"ypos"			"300"
 		"zpos"			"1"
-		"wide"			"215"
+		"wide"			"270"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"32 32 32 255"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintbackground"	"1"
-		"paintborder"		"0"
 		
-		"model_xpos"		"3"
+		"model_xpos"		"10"
 		"model_center_y"	"1"
-		"model_wide"		"37"
-		"model_tall"		"23"
+		"model_wide"		"90"
+		"model_tall"		"55"
 		
-		"text_xpos"		"42"
-		"text_ypos"		"20"
+		"text_xpos"		"90"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
-		"padding_height"	"10"
+		"padding_height"	"40"
 		"resize_to_text"	"1"
-		"text_forcesize"	"1"
+		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
@@ -281,12 +315,12 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"NotoBold12"
-			"xpos"			"4"
+			"font"			"DefaultSmall"
+			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"210"
-			"tall"			"12"
+			"wide"			"270"
+			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -296,5 +330,25 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}		
+		
+		"attriblabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"attriblabel"
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"south"
+			"fgcolor"		"235 226 202 255"
+			"centerwrap"	"1"
+		}
+	}	
 }

@@ -1,84 +1,86 @@
 "GameMenu" [$WIN32]
 {
-	"ConsButton"
+	"Credits"
 	{
-		"label" 		""
-		"command" 		"engine toggleconsole"
-		"OnlyInGame" 	"0"
-		"subimage"		"glyph_vr"
+		"label" "Forty-Two's Frankenstein HUD of random bits of other HUDs combined"
+		"command" "engine showconsole; echo huds.tf"
 	}
-	"minmodeON"
+	"FavoriteServer"
 	{
-		"label" 		"6v6"
-		"command" 		"engine cl_hud_minmode 1"
-		"OnlyInGame" 	"1"
-		"subimage"		"glyph_options"
-	}
-	"minmodeOFF"
-	{
-		"label" 		"12v12"
-		"command" 		"engine cl_hud_minmode 0"
-		"OnlyInGame" 	"1"
-		"subimage"		"glyph_options"
-	}
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"command" "engine connect [IP SERVER]"
 	}
 	"QuickplayButton"
 	{
-		"label" "Multiplayer" 
+		"label" "Quickplay" 
 		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
+		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "New Game" 
+		"label" "Quickplay" 
 		"command" "quickplay"
-		"subimage" "glyph_server"
+		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "MvM" 
+		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
-		"subimage" "glyph_coop"
+		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
+		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "Change Server" 
+		"label" "#MMenu_ChangeServer" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" "glyph_practice"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
 		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
+		"subimage" "glyph_practice"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "Workshop"
+		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
+		"subimage" "glyph_practice"
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "#TF_Training"
 		"command" "offlinepractice"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+	}
+	"ServerButton6vs6"
+	{
+		"label" "Scoreboard 6v6"
+		"command" "engine cl_hud_minmode 1"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "0"
+	}
+	"ServerButton16vs16"
+	{
+		"label" "Scoreboard 16v16"
+		"command" "engine cl_hud_minmode 0"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "0"
+	}
+	"QuitButton"
+	{
+		"label" "#TF_Quit_Title"
+		"command" "engine replay_confirmquit"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 	}
@@ -86,51 +88,62 @@
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "Create"
+		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
+		"tooltip" "Create Server"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Store"
+		"label" "Shop"
 		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
+		"subimage" "glyph_practice"
+	}
 	"CharacterSetupButton"
 	{
 		"label" "Items"
 		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"subimage" "glyph_practice"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+	"ResumeGameButton"
+	{
+		"label"			"#MMenu_ResumeGame"
+		"command"		"ResumeGame"
+		"OnlyInGame"	"1"
+		"subimage" "glyph_practice"
+	}
+	"DisconnectButton"
+	{
+		"label" "Disconnect"
+		"command" "engine disconnect"
+		"subimage" "glyph_practice"
+		"OnlyInGame"	"1"
+	}
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			""
 		"command"		"callvote"
-		"OnlyInGame"	"1"
+		"OnlyAtMenu" "0"
 		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute Players"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
+		"tooltip" "#MMenu_MutePlayers"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Request Coach"
+		"label"			""
 		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
+		"OnlyAtMenu" "0"
 		"subimage" "icon_whistle"
-	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
+		"tooltip" "#MMenu_RequestCoach"
 	}
 }

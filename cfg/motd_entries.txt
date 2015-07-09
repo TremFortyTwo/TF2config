@@ -1,18 +1,18 @@
 "motd_entries"
 {
-	"last_request_time"		"2014-12-23 11:25:41"
+	"last_request_time"		"2015-07-03 08:59:01"
 	"last_request_language"		"english"
-	"64"
+	"66"
 	{
-		"post_time"		"2014-12-23 03:00:00"
-		"title_english"		"Mannpower Beta"
-		"text_english"		"Introducing Mannpower Mode, a new beta game mode for TF2!
-
-It contains PowerUps, Grappling Hooks and a slight twist to Capture the flag.  Check out the website for more information."
-		"url"		"http://www.teamfortress.com/"
-		"image"		"illustrations/gamemode_powerup_beta"
+		"post_time"		"2015-07-03 08:00:00"
+		"title_english"		"Gun Mettle Update"
+		"text_english"		"The Gun Mettle Update is a three-month event designed to test your TF mettle by introducing weapons with unique paint jobs, skill-based contracts, featured community maps, and more!
+			
+For more details see the Update Notes by clicking the button below."
+		"url"		"http://www.teamfortress.com/gunmettle"
+		"image"		"main_menu/motd_gunmettle"
 		"header_type"		"1"
-		"header_english"		"New Gamemode Beta"
+		"header_english"		"News"
 		"header_icon"		"class_icons/filter_all_motd"
 	}
 }
